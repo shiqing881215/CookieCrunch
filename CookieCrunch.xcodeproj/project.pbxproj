@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1948B171AD3B27500ECE593 /* Swap.m in Sources */ = {isa = PBXBuildFile; fileRef = C1948B161AD3B27500ECE593 /* Swap.m */; };
 		C19658851ACA79400079EF2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C19658841ACA79400079EF2E /* main.m */; };
 		C19658881ACA79400079EF2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C19658871ACA79400079EF2E /* AppDelegate.m */; };
 		C196588B1ACA79400079EF2E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C196588A1ACA79400079EF2E /* GameScene.m */; };
@@ -16,6 +17,16 @@
 		C19658951ACA79410079EF2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19658941ACA79410079EF2E /* Images.xcassets */; };
 		C19658981ACA79410079EF2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19658961ACA79410079EF2E /* LaunchScreen.xib */; };
 		C19658A41ACA79410079EF2E /* CookieCrunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C19658A31ACA79410079EF2E /* CookieCrunchTests.m */; };
+		C19658AE1ACA7A250079EF2E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C19658AD1ACA7A250079EF2E /* Sprites.atlas */; };
+		C19FD2571AD6467D0042D5CA /* Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = C19FD2561AD6467D0042D5CA /* Chain.m */; };
+		C1A644AE1AD2E9E200FC4917 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = C1A644A91AD2E9E200FC4917 /* Level_0.json */; };
+		C1A644AF1AD2E9E200FC4917 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = C1A644AA1AD2E9E200FC4917 /* Level_1.json */; };
+		C1A644B01AD2E9E200FC4917 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = C1A644AB1AD2E9E200FC4917 /* Level_2.json */; };
+		C1A644B11AD2E9E200FC4917 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = C1A644AC1AD2E9E200FC4917 /* Level_3.json */; };
+		C1A644B21AD2E9E200FC4917 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = C1A644AD1AD2E9E200FC4917 /* Level_4.json */; };
+		C1A644B51AD3647200FC4917 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A644B41AD3647200FC4917 /* Tile.m */; };
+		C1B470691ACEF2080087D955 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B470681ACEF2080087D955 /* Level.m */; };
+		C1C1A2D41ACD1D920043084F /* Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1A2D31ACD1D920043084F /* Cookie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1948B151AD3B27500ECE593 /* Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swap.h; sourceTree = "<group>"; };
+		C1948B161AD3B27500ECE593 /* Swap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swap.m; sourceTree = "<group>"; };
 		C196587F1ACA79400079EF2E /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19658831ACA79400079EF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C19658841ACA79400079EF2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +58,20 @@
 		C196589D1ACA79410079EF2E /* CookieCrunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCrunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19658A21ACA79410079EF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C19658A31ACA79410079EF2E /* CookieCrunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieCrunchTests.m; sourceTree = "<group>"; };
+		C19658AD1ACA7A250079EF2E /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		C19FD2551AD6467D0042D5CA /* Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain.h; sourceTree = "<group>"; };
+		C19FD2561AD6467D0042D5CA /* Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chain.m; sourceTree = "<group>"; };
+		C1A644A91AD2E9E200FC4917 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		C1A644AA1AD2E9E200FC4917 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		C1A644AB1AD2E9E200FC4917 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		C1A644AC1AD2E9E200FC4917 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		C1A644AD1AD2E9E200FC4917 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		C1A644B31AD3647200FC4917 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		C1A644B41AD3647200FC4917 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		C1B470671ACEF2080087D955 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		C1B470681ACEF2080087D955 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		C1C1A2D21ACD1D920043084F /* Cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cookie.h; sourceTree = "<group>"; };
+		C1C1A2D31ACD1D920043084F /* Cookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cookie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +113,29 @@
 		C19658811ACA79400079EF2E /* CookieCrunch */ = {
 			isa = PBXGroup;
 			children = (
+				C1A644A81AD2E9E200FC4917 /* Levels */,
 				C19658861ACA79400079EF2E /* AppDelegate.h */,
 				C19658871ACA79400079EF2E /* AppDelegate.m */,
 				C19658891ACA79400079EF2E /* GameScene.h */,
 				C196588A1ACA79400079EF2E /* GameScene.m */,
+				C1C1A2D21ACD1D920043084F /* Cookie.h */,
+				C1C1A2D31ACD1D920043084F /* Cookie.m */,
+				C1B470671ACEF2080087D955 /* Level.h */,
+				C1B470681ACEF2080087D955 /* Level.m */,
 				C196588C1ACA79400079EF2E /* GameScene.sks */,
 				C196588E1ACA79400079EF2E /* GameViewController.h */,
 				C196588F1ACA79400079EF2E /* GameViewController.m */,
 				C19658911ACA79400079EF2E /* Main.storyboard */,
 				C19658941ACA79410079EF2E /* Images.xcassets */,
 				C19658961ACA79410079EF2E /* LaunchScreen.xib */,
+				C19658AD1ACA7A250079EF2E /* Sprites.atlas */,
 				C19658821ACA79400079EF2E /* Supporting Files */,
+				C1A644B31AD3647200FC4917 /* Tile.h */,
+				C1A644B41AD3647200FC4917 /* Tile.m */,
+				C1948B151AD3B27500ECE593 /* Swap.h */,
+				C1948B161AD3B27500ECE593 /* Swap.m */,
+				C19FD2551AD6467D0042D5CA /* Chain.h */,
+				C19FD2561AD6467D0042D5CA /* Chain.m */,
 			);
 			path = CookieCrunch;
 			sourceTree = "<group>";
@@ -125,6 +164,18 @@
 				C19658A21ACA79410079EF2E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1A644A81AD2E9E200FC4917 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				C1A644A91AD2E9E200FC4917 /* Level_0.json */,
+				C1A644AA1AD2E9E200FC4917 /* Level_1.json */,
+				C1A644AB1AD2E9E200FC4917 /* Level_2.json */,
+				C1A644AC1AD2E9E200FC4917 /* Level_3.json */,
+				C1A644AD1AD2E9E200FC4917 /* Level_4.json */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,10 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A644AF1AD2E9E200FC4917 /* Level_1.json in Resources */,
+				C1A644B21AD2E9E200FC4917 /* Level_4.json in Resources */,
+				C1A644B11AD2E9E200FC4917 /* Level_3.json in Resources */,
 				C19658981ACA79410079EF2E /* LaunchScreen.xib in Resources */,
+				C1A644AE1AD2E9E200FC4917 /* Level_0.json in Resources */,
 				C19658951ACA79410079EF2E /* Images.xcassets in Resources */,
 				C196588D1ACA79400079EF2E /* GameScene.sks in Resources */,
+				C1A644B01AD2E9E200FC4917 /* Level_2.json in Resources */,
 				C19658931ACA79400079EF2E /* Main.storyboard in Resources */,
+				C19658AE1ACA7A250079EF2E /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B470691ACEF2080087D955 /* Level.m in Sources */,
 				C19658901ACA79400079EF2E /* GameViewController.m in Sources */,
+				C1948B171AD3B27500ECE593 /* Swap.m in Sources */,
 				C19658881ACA79400079EF2E /* AppDelegate.m in Sources */,
 				C196588B1ACA79400079EF2E /* GameScene.m in Sources */,
 				C19658851ACA79400079EF2E /* main.m in Sources */,
+				C19FD2571AD6467D0042D5CA /* Chain.m in Sources */,
+				C1A644B51AD3647200FC4917 /* Tile.m in Sources */,
+				C1C1A2D41ACD1D920043084F /* Cookie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +484,7 @@
 				C19658A91ACA79410079EF2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C19658AA1ACA79410079EF2E /* Build configuration list for PBXNativeTarget "CookieCrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +493,7 @@
 				C19658AC1ACA79410079EF2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
